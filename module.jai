@@ -1,10 +1,4 @@
 #import "Basic";
-#insert #run loadex("test.jai");
-
-main :: () {
-    print("Hello World!\n");
-    print("foo(2.0) = %\n", foo(2.0));
-}
 
 loadex :: (filename: string, replacement_filename: string = "", debug := false) -> string {
     #import "File";
