@@ -3,6 +3,8 @@ Macro to replace symbols and strings in the code files during loading
 
 Example can be found under `/example`.
 
+<!> You need to create a folder "replaced".
+
 ## How it works
 Load files with non-ascii characters via `#insert #run loadex(filename [, replacement_filename, debug=false])` instead of `#load filename`.
 - The first argument `filename : string` is the source file you want to load.
